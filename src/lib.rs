@@ -23,4 +23,6 @@ fn movebot<T>(bot: Bot, state: T) -> Pos {
     pos
 }
 
+// Register player (package name, team name, move fn)
+// NB: The package name needs to be the same as in pyproject.toml
 pelita_player!(crustybots, TEAM_NAME, movebot);
