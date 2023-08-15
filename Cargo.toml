@@ -12,3 +12,4 @@ crate-type = ["cdylib"]
 pyo3 = "0.19.0"
 rand = "0.8.5"
 pelita_rust_wrapper = { git = "https://github.com/Debilski/pelita-rust-wrapper" }
+pathfinding = "4.3.1"
