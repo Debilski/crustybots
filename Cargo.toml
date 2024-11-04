@@ -9,7 +9,13 @@ name = "crustybots"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.19.0"
+pyo3 = "0.22.5"
 rand = "0.8.5"
-pelita_rust_wrapper = { git = "https://github.com/Debilski/pelita-rust-wrapper" }
-pathfinding = "4.3.1"
+pathfinding = "4.11.0"
+im = "15.1.0"
+debug_print = "1.0.0"
+lru = "0.12.5"
+
+#pelita_rust_wrapper = { git = "https://github.com/Debilski/pelita-rust-wrapper" }
+pelita_rust_wrapper = { path = "../pelita-rust" }
+lazy_static = "1.4.0"
